@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styleSheet.css" />
+    <title>SignIn</title>
+  </head>
+  <body>
+    <section class="layOut">
+      <div class="container">
+        <form id="the-form" action="" method="post">
+          <h1>SIGN UP</h1>
+          <div class="inputField">
+            <label for="userName">UserName :</label>
+            <input id="userName" type="text" placeholder="choose a Username" />
+            <p id="nameWarning"></p>
+          </div>
+          <div class="inputField">
+            <label for="mail">Email :</label>
+            <input id="mail" type="email" placeholder="Email" />
+            <p id="warnMail"></p>
+          </div>
+          <div class="inputField">
+            <label for="country">Country :</label>
+            <select name="" id="selectCon">
+              <option value="select country">select country</option>
+              <option value="India">India</option>
+              <option value="US">US</option>
+              <option value="UK">UK</option>
+            </select>
+            <p id="validCon"></p>
+          </div>
+          <div class="inputField">
+            <label for="pass">Password :</label>
+            <input id="pass" type="password" placeholder="password" />
+            <p id="passwordWarn"></p>
+          </div>
+          <div class="inputField">
+            <label for="confirm">Confirm Password :</label>
+            <input
+              id="confirm"
+              type="password"
+              placeholder="confirm password"
+            />
+            <p id="confWarn"></p>
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+      <div id="sub" class="greeting">
+        <h2 id="message">Form submitted</h2>
+      </div>
+    </section>
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-color: black;
+  margin: 0px;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.layOut {
+  max-width: 1240px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  position: relative;
+  align-items: center;
+  /* text-align: center; */
+}
+.container {
+  padding: 20px 101px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+form input {
+  display: block;
+  color: black;
+  padding: 15px;
+  font-size: 16px;
+  background-color: rgba(241, 241, 241, 0.884);
+  border-radius: 5px;
+}
+button {
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+p {
+  color: rgb(255, 3, 3);
+  font-size: 16px;
+}
+
+form {
+  max-width: 250px;
+}
+select {
+  margin: 10px 0px 10px;
+  display: block;
+  background-color: rgba(241, 241, 241, 0.884);
+  color: black;
+  padding: 15px 15px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+option {
+  color: black;
+  background: rgba(241, 241, 241, 0.884);
+  font-size: 16px;
+}
+.greeting {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  display: none;
+  background: rgb(104, 174, 221);
+  color: black;
+}
